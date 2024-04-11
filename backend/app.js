@@ -2,7 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const User =require('./models/User')
-const connectDB =require('./database/config')
+const connectDB =require('./db/config')
 
 const app=express()
 app.use(express.json())
